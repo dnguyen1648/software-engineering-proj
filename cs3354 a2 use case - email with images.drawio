@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2022-10-15T04:20:30.451Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ZuFgPgEauQ8Liop2uwwV" version="20.4.1" type="github"><diagram id="zbjTKwKbv62WeKo4QZf_" name="Page-1">3ZjZcpswFIafxpfJsBgvl45Jk07bmUydTpc7GWRQIyQqRGz69D0yYhFg152JnU5uEunXgvT9R5tH7jLZ3QmUxp94iOnIscLdyPVHjmM78yn8U0pRKpPZvBQiQUJdqRFW5DfWoqXVnIQ4MypKzqkkqSkGnDEcSENDQvCtWW3DqfnVFEW4J6wCRPvqVxLKuFRnntXo95hEcfVl29IlCaoqayGLUci3Lcm9HblLwbksU8luiamCV3Ep2707UFoPTGAmT2lg2ezn3f1i6d/4V+FjWhSzH/hK9/KMaK4nrAcri4oAjDtVyTyhi0ByMXJvnrGQBBh9RGtMH3hGJOEMqqy5lDxpVVhQEqkCyVNQY5lQyNiQ5LmkhOFl7ZoFoh4LtMW7g5O0a3QQc5gnWIoCqugGcw1bR5tT+bRteaeluG3bRItIh0tU99wQhYSG+g+Ap38HLHjOQhxqCNuYSLxKUaBKt7CoTHAvwAii14A07zOqtTYkzzoXpHkP0mf8K8eZVPPK15QEkHjCag4bAQHmWAIHJCVqwl2a8DnYG/BFSLoTk2QdRi2UtjOAcnYuktW2eSzeXpPQULBdmNAJW95FCU3NLWvsvjohp0fow37tPQrEsg0WPV4we2mCyaTgT7C9U3Ve+IwzBXNDKO1ISB8QAdDCYuDkSEgY0kNOmDvnS5jhmmbUp3nbjKG90T2bGe7/d4BM7c4pOz4xZO3zYRr3MD1UB0cZvD6SaI1gUb/Z4O3ZMhS8Q7aczxVvIHgndI8b5jKJVOpLpnYUa4VZmKlBMPhzmyBC9yOHgTvW+wSu2dn+6q8KWSCKVFY9wciazl7Q3QzsIiwCwWtyj+oi6185hxYaBwc3dH/Nj8F8zM5htD2ZXncuHn2nPcfrO+2dzen+PVcZ+pbPivpsOLLcJhddbbMTbjYsXKhXcUO1ZYSJCDCI4ls7811lrr0q6+/ahX5hoMVh713dAQvj4rkI8LEZlfUkEhGWR+rNh41qr4bB90ypCUyRJM/mcIfc0V944ES9O6o4GHfioL7QVV2U09St2g/0bkdepyOn01HJodfRPljqaQ/FD2Sb3xnK6s2vNe7tHw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-15T04:44:40.188Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="g8jHV4P2X4TOv3VUgFf9" version="20.4.1" type="github">
+  <diagram id="zbjTKwKbv62WeKo4QZf_" name="Page-1">
+    <mxGraphModel dx="1297" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="01njGHACDBD-dTpyy8Ze-1" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="90" y="250" width="80" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="01njGHACDBD-dTpyy8Ze-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="285" y="90" width="290" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="01njGHACDBD-dTpyy8Ze-9" value="Request public key from recipient" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="01njGHACDBD-dTpyy8Ze-10" value="User clicks send email" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="365" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="01njGHACDBD-dTpyy8Ze-11" value="Encrypt images" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="01njGHACDBD-dTpyy8Ze-12" value="Central Key Transfer Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="100" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="01njGHACDBD-dTpyy8Ze-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="240" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="01njGHACDBD-dTpyy8Ze-14" value="Public Key Database" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="710" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="01njGHACDBD-dTpyy8Ze-15" value="&lt;h1&gt;User Sends an Email with Images to Encrypt&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="167.5" y="10" width="525" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="01njGHACDBD-dTpyy8Ze-17" value="Sender" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="100" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="01njGHACDBD-dTpyy8Ze-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="01njGHACDBD-dTpyy8Ze-1" target="01njGHACDBD-dTpyy8Ze-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="220" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nkD_UVZkj7i6mlzgK1ns-1" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="01njGHACDBD-dTpyy8Ze-13" target="01njGHACDBD-dTpyy8Ze-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="380" as="sourcePoint" />
+            <mxPoint x="450" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nkD_UVZkj7i6mlzgK1ns-3" value="Create and send public key" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nkD_UVZkj7i6mlzgK1ns-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="nkD_UVZkj7i6mlzgK1ns-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="520" as="sourcePoint" />
+            <mxPoint x="450" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nkD_UVZkj7i6mlzgK1ns-7" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="510" width="80" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nkD_UVZkj7i6mlzgK1ns-8" value="Sender&#39;s Extension" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="470" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nkD_UVZkj7i6mlzgK1ns-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="01njGHACDBD-dTpyy8Ze-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="520" as="sourcePoint" />
+            <mxPoint x="450" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nkD_UVZkj7i6mlzgK1ns-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="01njGHACDBD-dTpyy8Ze-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="520" as="sourcePoint" />
+            <mxPoint x="450" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nkD_UVZkj7i6mlzgK1ns-11" value="Dylan Nguyen" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="50" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
