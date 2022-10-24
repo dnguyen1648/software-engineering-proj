@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T03:29:45.818Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ZyQ8x1O5wF4b9mQN052F" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-24T03:32:46.081Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="h6NrO8PaSBK3glburQsk" version="20.5.1" type="github">
   <diagram id="yi8clrVWpxPI6aIF4BqR" name="Page-1">
     <mxGraphModel dx="1365" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
         <mxCell id="cV7SApcjxq-6u7qVIPJe-45" value="&amp;lt;&amp;lt;Controller&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Extension Server&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="1110" y="20" width="160" height="142" as="geometry" />
         </mxCell>
-        <mxCell id="cV7SApcjxq-6u7qVIPJe-52" value="- getPrimer()&lt;br&gt;- sendPublicKey()&lt;br&gt;- getEmployeePublicKey()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cV7SApcjxq-6u7qVIPJe-45">
+        <mxCell id="cV7SApcjxq-6u7qVIPJe-52" value="- getPrimer()&lt;br&gt;- sendPublicKey()&lt;br&gt;- getEmployeePublicKey()&lt;br&gt;- backup()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cV7SApcjxq-6u7qVIPJe-45">
           <mxGeometry y="55" width="160" height="87" as="geometry" />
         </mxCell>
         <mxCell id="cV7SApcjxq-6u7qVIPJe-53" value="&amp;lt;&amp;lt;Database&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Public Key Database&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
@@ -73,7 +73,7 @@
         <mxCell id="cV7SApcjxq-6u7qVIPJe-58" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="cV7SApcjxq-6u7qVIPJe-53">
           <mxGeometry y="110" width="140" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="cV7SApcjxq-6u7qVIPJe-60" value="+ sendPrimer()&lt;br&gt;- sendPublicKey&lt;br&gt;- refreshPrimer()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cV7SApcjxq-6u7qVIPJe-53">
+        <mxCell id="cV7SApcjxq-6u7qVIPJe-60" value="+ sendPrimer()&lt;br&gt;- sendPublicKey&lt;br&gt;- refreshPrimer()&lt;br&gt;- backup()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cV7SApcjxq-6u7qVIPJe-53">
           <mxGeometry y="118" width="140" height="87" as="geometry" />
         </mxCell>
         <mxCell id="cV7SApcjxq-6u7qVIPJe-61" value="&amp;lt;&amp;lt;List&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Companies List&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
@@ -83,7 +83,7 @@
           <mxGeometry y="55" width="160" height="105" as="geometry" />
         </mxCell>
         <mxCell id="cV7SApcjxq-6u7qVIPJe-77" value="&amp;lt;&amp;lt;List&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Employees List&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="960" width="170" height="130" as="geometry" />
+          <mxGeometry x="770" y="960" width="170" height="130" as="geometry" />
         </mxCell>
         <mxCell id="cV7SApcjxq-6u7qVIPJe-80" value="- getEmployeePublicKey()&lt;br&gt;- addEmployee()&lt;br&gt;- editEmployee()&lt;br&gt;- deleteEmployee()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cV7SApcjxq-6u7qVIPJe-77">
           <mxGeometry y="55" width="170" height="75" as="geometry" />
@@ -119,10 +119,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cV7SApcjxq-6u7qVIPJe-102" value="&amp;lt;&amp;lt;Controller&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Management Server&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1240" y="580" width="180" height="122" as="geometry" />
+          <mxGeometry x="1240" y="580" width="180" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="cV7SApcjxq-6u7qVIPJe-109" value="- getChangeSecurity()&lt;br&gt;- getChangeEmployee()&lt;br&gt;- sendChangeRequestCode()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cV7SApcjxq-6u7qVIPJe-102">
-          <mxGeometry y="55" width="180" height="67" as="geometry" />
+        <mxCell id="cV7SApcjxq-6u7qVIPJe-109" value="- getChangeSecurity()&lt;br&gt;- getChangeEmployee()&lt;br&gt;- sendChangeRequestCode()&lt;br&gt;- backup()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cV7SApcjxq-6u7qVIPJe-102">
+          <mxGeometry y="55" width="180" height="75" as="geometry" />
         </mxCell>
         <mxCell id="cV7SApcjxq-6u7qVIPJe-110" value="&amp;lt;&amp;lt;Controller&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Website&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="1590" y="580" width="150" height="110" as="geometry" />
