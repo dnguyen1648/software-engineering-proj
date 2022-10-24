@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T03:13:04.888Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="OmyzxuhQp0uRXwhN4V1N" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-24T03:13:20.559Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="IOSCavoOTORRz_uQe6Dh" version="20.5.1" type="github">
   <diagram id="yi8clrVWpxPI6aIF4BqR" name="Page-1">
     <mxGraphModel dx="1526" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
             <mxPoint x="1543.6000000000001" y="193.52499999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cV7SApcjxq-6u7qVIPJe-45" value="&amp;lt;&amp;lt;ExtensionServer&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Extension Server&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+        <mxCell id="cV7SApcjxq-6u7qVIPJe-45" value="&amp;lt;&amp;lt;Controller&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Extension Server&lt;/b&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
           <mxGeometry x="1110" y="20" width="160" height="142" as="geometry" />
         </mxCell>
         <mxCell id="cV7SApcjxq-6u7qVIPJe-52" value="- getEmployeePublicKey()&lt;br&gt;- sendPublicKey()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="cV7SApcjxq-6u7qVIPJe-45">
