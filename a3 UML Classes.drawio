@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T00:27:25.959Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="56Ln6eJ-t-6kY4H4RT9v" version="20.5.1" type="github"><diagram id="yi8clrVWpxPI6aIF4BqR" name="Page-1">7ZhRb5swEMc/DY+NAoQkfSyk27S1U7VMmrQ3BxzwajhkLk3ST78z2KGERsukorxEQQr399nG9/ubWHH8KN99VqzMHiHh0vHGyc7xF47nud7tjL60sm+U6fy2EVIlEpPUCkvxyo04NupGJLzqJCKARFF2xRiKgsfY0ZhSsO2mrUF2Zy1ZynvCMmayr/4SCWaNOg/Grf6FizSzM7tj05Izm2yEKmMJbN9I/r3jRwoAm7t8F3Gpi2fr0vT7dKL18GCKF3hOhz93hfg2i5Ov09883SWbx+836saM8sLkxizY8aYsLx0/lDRq2I2e+X4LKjmIaSfFRnXqStFdV7FCJFlVibXgyrVt9NSrXn47wixkqwoVI76zhakm7i2iaityyQqKwjUUuDQtY4qZFGlB9zHViCsSXrhCQXTvTAOCfvI4EzJ5YHvY6EpWyOJnG4UZKPFKwzJJTS4J1KzQGDUIOhlL3dNMrXhFOU8Wj3skPbJdJ/GBVWiEGKRkZSVWh2XkTKWiCAERciNlmNsHMghpZXx30hvuwXG0VTnkHNWeUmwH61qzS92Jibet5w9a9tbvc9/sNbPP0sPYrRXpxrjxP5zp9ZzJEJVYbZBeB8cWoJVjtyhkF3jmEUgg7IsCGnsIKY+kfzokF0mipwmrksWiSB/4Wq990io/TDm0BNR9LettnlFHXmjAgAxZS7MEUWBdriCki6oajUeBE9BCIordNqZLpyuMoND+FzVNTlbZ8grPRX964/f9YPiTr8/Cb99tH07fP03fHYC+rKFe2esus0uzn/TYiyLjSiBP9HTWB97VB7UP9G+eXY7j+fOx/gzoj9tL+yPo+WM0Gl3NMOhLwXUvTX36zkn1CLkUNb+Gsz2tux8C+ac+Jy5u3B52v4/dfwexZCsun6ASKECPr5rcI/QXo+ufSXc+ENxZDy6UXDFdrOthb3D6E//Ce3t+Gv/1tDcw/Olw8Cls/96o2978SeTf/wU=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-24T00:42:15.713Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="4Wdos7EI9T_77tbAPPOE" version="20.5.1" type="github">
+  <diagram id="yi8clrVWpxPI6aIF4BqR" name="Page-1">
+    <mxGraphModel dx="1297" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jAniK7cdJ6ZegxduMN-r-1" value="&amp;lt;&amp;lt;Extension&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Extension Class&lt;/b&gt;&lt;br&gt;{abstract}" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="140" width="140" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="jAniK7cdJ6ZegxduMN-r-3" value="+&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jAniK7cdJ6ZegxduMN-r-1" vertex="1">
+          <mxGeometry y="55" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jAniK7cdJ6ZegxduMN-r-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="jAniK7cdJ6ZegxduMN-r-1" vertex="1">
+          <mxGeometry y="75" width="140" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="jAniK7cdJ6ZegxduMN-r-8" value="- encrypt(image)&lt;br&gt;- decrypt(image)&lt;br&gt;- requestPublicKey()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="jAniK7cdJ6ZegxduMN-r-1" vertex="1">
+          <mxGeometry y="83" width="140" height="87" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
