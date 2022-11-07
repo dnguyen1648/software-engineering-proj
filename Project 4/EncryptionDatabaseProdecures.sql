@@ -1,0 +1,49 @@
+delimiter //
+CREATE PROCEDURE sendPrimer(IN id INT, OUT primer VARCHAR(100))
+BEGIN
+	SELECT companyPrimaryKey INTO primer FROM EncrytionDatabase.Company WHERE companyID = id;
+END//
+
+CREATE PROCEDURE findCompany()
+BEGIN
+END//
+
+CREATE PROCEDURE getEmployeePublicKey(IN eID INT)
+BEGIN
+END//
+
+CREATE PROCEDURE refreshKey(IN eID INT)
+BEGIN
+END//
+
+CREATE PROCEDURE changeKeySize(IN cID INT)
+BEGIN
+END//
+
+CREATE PROCEDURE setPasswordReqs(IN eID INT)
+BEGIN
+END//
+
+CREATE PROCEDURE refreshPrimer(IN cID INT)
+BEGIN
+END//
+
+CREATE PROCEDURE addEmployee(IN employeeID INT, IN firstName VARCHAR(100), IN lastName VARCHAR(100), IN email VARCHAR(100), IN hashedPassword VARCHAR(100), IN companyID INT)
+BEGIN
+END//
+
+CREATE PROCEDURE editEmplyee(IN eID INT)
+BEGIN
+END//
+
+CREATE PROCEDURE deleteEmployee(IN eID INT)
+BEGIN
+END//
+
+CREATE PROCEDURE sendEmailAddress(IN eID INT, OUT emailAddress VARCHAR(100))
+BEGIN
+END//
+
+CREATE PROCEDURE sendPublicKey(IN eID INT, OUT pubKey INT)
+BEGIN
+END//
