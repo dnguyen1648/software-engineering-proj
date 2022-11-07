@@ -1,6 +1,8 @@
 Available Files: taskpane.css, taskpane.html, taskpane.js
 
-taskpane.html file contains the HTML markup for the Outlook add-in taskpane.css file contains the CSS that's applied to content in the task pane. taskpane.js file contains the Office JavaScript API code that facilitates interaction between the task pane and Outlook.
+taskpane.html file contains the HTML markup for the Outlook add-in 
+taskpane.css file contains the CSS that's applied to content in the task pane 
+taskpane.js file contains the Office JavaScript API code that facilitates interaction between the task pane and Outlook.
 
 To compile the project install required software: Enter "npm install -g yo generator-office" in command prompt Enter "yo office" in command prompt
 
