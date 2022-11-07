@@ -35,7 +35,7 @@ void main:
     elif (code == decryptCode):
         decrypt(imgStr, priv)
     else:
-        print("bruh")
+        print("bruh") # some error message
     # now send that result to the reader to put back into the email
     
 int getPrimer:
