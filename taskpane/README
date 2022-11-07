@@ -8,6 +8,6 @@ To compile the project install required software: Enter "npm install -g yo gener
 
 The project has one no required arguments. To run the project, ENTER "npr start" in the root folder of the project
 
-This project will then launch an instance of outlook.
+This project will then launch an instance of Outlook.
 
-To test impcryptr Click the "Show Task Pane" Icon.
+To test imcryptr, click the "Show Task Pane" Icon.
