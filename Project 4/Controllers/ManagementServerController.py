@@ -15,3 +15,5 @@ class ManagementServerController:  # this controller will be making changes to t
     def check_login(self, login):
         # this will check lookup table for login credentials
         pass
+
+    # SQL queries will go here. waiting until final implementation to determine which queries we need
