@@ -2,10 +2,6 @@ from Crypto.Cipher import AES   # PyCryptodome implementation https://pypi.org/p
 from Crypto.Random import get_random_bytes
 
 """
-from Crypto.Cipher import AES   # PyCryptodome implementation https://pypi.org/project/pycryptodome/
-from Crypto.Random import get_random_bytes
-"""
-"""
 Encrypt
 Takes in the sender's email address (string), the picture (byte array), and the aes private key (128 bit == 16 byte string)
 Outputs the cipher text with header information
@@ -69,32 +65,32 @@ Extract Header
 """
 def extractHead(byteStr):
     # every size is 6 bytes long.
-    sizEmail = bytesToInt(ct[0:6])
+    sizEmail = bytesToInt(byteStr[0:6])
     print(f'found email size is: {sizEmail}') if (debug == 1) else print('', end='')
     foundEmail = bytearray(b'')
     
     # after the email header and email, you have the tag header (6 bytes) and tag
-    sizTag = bytesToInt(ct[6 + sizEmail : 12 + sizEmail])
+    sizTag = bytesToInt(byteStr[6 + sizEmail : 12 + sizEmail])
     print(f'found tag size is: {sizTag}') if (debug == 1) else print('', end='')
     foundTag = bytearray(b'')
     
-    sizNonce = bytesToInt(ct[12 + sizEmail + sizTag: 18 + sizEmail + sizTag])
+    sizNonce = bytesToInt(byteStr[12 + sizEmail + sizTag: 18 + sizEmail + sizTag])
     print(f'found nonce size is: {sizNonce}') if (debug == 1) else print('', end='')
     foundNonce = bytearray(b'')
     
     realDec = bytearray(b'')
     
     for i in range(sizEmail):
-        foundEmail.append(ct[6 + i])
+        foundEmail.append(byteStr[6 + i])
     print(f'found email is: {foundEmail}') if (debug == 1) else print('', end='')
     for j in range(sizTag):
-        foundTag.append(ct[12 + sizEmail + j])
+        foundTag.append(byteStr[12 + sizEmail + j])
     print(f'found tag is: {foundTag}') if (debug == 1) else print('', end='')
     for k in range(sizNonce):
-        foundNonce.append(ct[18 + sizEmail + sizTag + k])
+        foundNonce.append(byteStr[18 + sizEmail + sizTag + k])
     print(f'found nonce is: {foundNonce}') if (debug == 1) else print('', end='')
-    for l in range(18 + sizEmail + sizTag + sizNonce, len(ct)):
-        realDec.append(ct[l])
+    for l in range(18 + sizEmail + sizTag + sizNonce, len(byteStr)):
+        realDec.append(byteStr[l])
     #print(f'\trealDec is {realDec}')
     
     return foundEmail, foundTag, foundNonce, realDec
