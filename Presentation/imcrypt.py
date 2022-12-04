@@ -64,6 +64,7 @@ Extract Header
 
 """
 def extractHead(byteStr):
+    debug = 0
     # every size is 6 bytes long.
     sizEmail = bytesToInt(byteStr[0:6])
     print(f'found email size is: {sizEmail}') if (debug == 1) else print('', end='')
